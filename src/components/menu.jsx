@@ -41,7 +41,7 @@ function Menu() {
         <h2 className="text-5xl font-bell mb-6 tracking-wide">🍽 Unsere Speisekarte</h2>
 
         {/* Kategorie-Buttons */}
-        <div className="flex justify-center gap-4 mb-6">
+        <div className="flex flex-wrap justify-center gap-4 mb-6">
           {Object.keys(menuItems).map((category) => (
             <button
               key={category}

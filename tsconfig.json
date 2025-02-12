@@ -1,5 +1,4 @@
 {
-  "extends": "astro/tsconfigs/strict",
   "include": [
     ".astro/types.d.ts",
     "**/*"
@@ -10,12 +9,12 @@
   "compilerOptions": {
     "jsx": "react-jsx",
     "jsxImportSource": "react",
+    "strict": true,  // Strikter TypeScript-Modus
     "baseUrl": ".",
     "paths": {
       "@/*": [
         "./src/*"
       ]
     }
-    // ...
   }
 }
