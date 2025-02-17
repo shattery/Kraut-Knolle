@@ -11,7 +11,7 @@ function Menu() {
       { name: "Cashew-Dip", description: "Mit frischem Gemüse", price: "4,50€", image: "./img/dip.jpg" },
       { name: "Bruschetta", description: "Mit Tomaten, Basilikum & Balsamico", price: "6,20€", image: "./img/bruschetta.jpg" },
       { name: "Hummus", description: "Mit Olivenöl & Fladenbrot", price: "5,00€", image: "./img/hummus.jpg" },
-      { name: "Vegane Frühlingsrollen", description: "Mit Erdnuss-Dip", price: "6,80€", image: "./img/fruehlingsrollen.jpg" },
+      { name: "Vegane Frühlingsrollen", description: "Mit Erdnuss-Dip", price: "5,80€", image: "./img/fruehlingsrollen.jpg" },
     ],
     hauptgerichte: [
       { name: "Buddha-Bowl", description: "Mit Quinoa, Avocado & Gemüse", price: "12,90€", image: "./img/buddhabowl.jpg" },
@@ -30,11 +30,11 @@ function Menu() {
   };
   
   return (
-    <div className="relative flex flex-col items-center min-h-screen bg-cover bg-center py-10 px-4"
+    <div className="relative flex flex-col items-center min-h-screen bg-cover bg-center border-[3px] rounded-[10px] border-slate-400 py-10 px-4"
       style={{ backgroundImage: "url('./img/board.jpg')" }}>
       
       {/* Dunkles Overlay */}
-      <div className="absolute inset-0 bg-black bg-opacity-50"></div>
+      <div className="absolute inset-0 bg-black bg-opacity-50 rounded-[10px]"></div>
 
       {/* Menü-Inhalt */}
       <div className="relative z-10 text-white text-center w-full max-w-4xl p-6 rounded-lg shadow-lg">
