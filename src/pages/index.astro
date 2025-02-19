@@ -1,6 +1,8 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import Menu from "../components/menu";
+import About from "../components/about.jsx";
+import Contact from "../components/Contact";
 import ParallaxWrapper from "../components/ParallaxWrapper.jsx";
 
 // Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
@@ -11,6 +13,7 @@ import ParallaxWrapper from "../components/ParallaxWrapper.jsx";
   <div class="relative h-screen bg-gray-800 overflow-hidden">
     <!-- Hintergrundbild -->
     <img
+      id="home"
       src="./img/diner.jpg"
       alt="Veganes Restaurant"
       class="absolute inset-0 w-full h-full object-cover opacity-80"
@@ -56,7 +59,7 @@ import ParallaxWrapper from "../components/ParallaxWrapper.jsx";
     <h2
       class="text-3xl text-center font-bell text-gray-800 mt-6 opacity-0 animate-fadeIn"
     >
-      Unsere Gerichte
+      Gerichte
     </h2>
   </div>
 
@@ -65,6 +68,42 @@ import ParallaxWrapper from "../components/ParallaxWrapper.jsx";
     <div class="max-w-4xl mx-auto px-4">
       <Menu client:load />
     </div>
+  </div>
+
+  <div id="about" class="relative bg-white py-12">
+    <div class="flex justify-center items-center">
+      <div
+        class="w-16 h-1 bg-green-500 rounded-full my-4 opacity-0 animate-fadeIn"
+      >
+      </div>
+    </div>
+    <h2
+      class="text-3xl text-center font-bell text-gray-800 mt-6 opacity-0 animate-fadeIn"
+    >
+      About
+    </h2>
+  </div>
+
+  <div>
+    <About client:load />
+  </div>
+
+  <div id="about" class="relative bg-white py-12">
+    <div class="flex justify-center items-center">
+      <div
+        class="w-16 h-1 bg-green-500 rounded-full my-4 opacity-0 animate-fadeIn"
+      >
+      </div>
+    </div>
+    <h2
+      class="text-3xl text-center font-bell text-gray-800 mt-6 opacity-0 animate-fadeIn"
+    >
+      Contact
+    </h2>
+  </div>
+
+  <div>
+    <Contact client:load />
   </div>
 
   <!-- Tailwind-Erweiterung für fixen Farbverlauf und Fade-Effekte -->
