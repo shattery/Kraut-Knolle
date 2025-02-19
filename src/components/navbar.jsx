@@ -10,7 +10,7 @@ const Navbar = () => {
       <nav className="font-bell h-auto bg-black bg-opacity-50 w-full fixed top-0 left-0 z-50 shadow-md">
         <div className="max-w-screen-2xl mx-auto flex items-center justify-between px-6 py-4 lg:px-10 lg:py-2 xl:px-20">
           {/* Logo + Name */}
-          <a href="#" className="flex items-center">
+          <a href="#home" className="flex items-center">
             <img
               src="./img/logo_navbar.png"
               alt="Logo"
