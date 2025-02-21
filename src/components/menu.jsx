@@ -8,15 +8,15 @@ function Menu() {
   const menuItems = {
     vorspeisen: [
       { name: "Süßkartoffelsuppe", description: "Mit gerösteten Kichererbsen", price: "5,90€", image: "./img/Süßkartoffelsuppe.jpg" },
-      { name: "Cashew-Dip", description: "Mit frischem Gemüse", price: "4,50€", image: "./img/dip.jpg" },
-      { name: "Bruschetta", description: "Mit Tomaten, Basilikum & Balsamico", price: "6,20€", image: "./img/bruschetta.jpg" },
-      { name: "Hummus", description: "Mit Olivenöl & Fladenbrot", price: "5,00€", image: "./img/hummus.jpg" },
-      { name: "Vegane Frühlingsrollen", description: "Mit Erdnuss-Dip", price: "5,80€", image: "./img/fruehlingsrollen.jpg" },
+      { name: "Cashew-Dip", description: "Mit frischem Gemüse", price: "4,50€", image: "./img/Cashew-Dip.png" },
+      { name: "Bruschetta", description: "Mit Tomaten, Basilikum & Balsamico", price: "6,20€", image: "./img/Bruschetta.png" },
+      { name: "Hummus", description: "Mit Olivenöl & Fladenbrot", price: "5,00€", image: "./img/olivenbrot.png" },
+      { name: "Vegane Frühlingsrollen", description: "Mit Erdnuss-Dip", price: "5,80€", image: "./img/Vegane Frühlingsrollen.png" },
     ],
     hauptgerichte: [
-      { name: "Buddha-Bowl", description: "Mit Quinoa, Avocado & Gemüse", price: "12,90€", image: "./img/buddhabowl.jpg" },
+      { name: "Buddha-Bowl", description: "Mit Quinoa, Avocado & Gemüse", price: "12,90€", image: "./img/Buddha-Bowl.png" },
       { name: "Veganer Burger", description: "Mit Linsenscheibe & BBQ-Sauce", price: "10,50€", image: "./img/Veganer Burger.jpg" },
-      { name: "Pasta Arrabiata", description: "Mit scharfer Tomatensauce", price: "9,80€", image: "./img/pasta.jpg" },
+      { name: "Pasta Arrabiata", description: "Mit scharfer Tomatensauce", price: "9,80€", image: "./img/Pasta Arrabiata.png" },
       { name: "Ratatouille", description: "Geschmortes Gemüse mit Kräutern", price: "11,30€", image: "./img/ratatouille.jpg" },
       { name: "Gemüse-Curry", description: "Mit Kokosmilch & Reis", price: "10,90€", image: "./img/curry.jpg" },
     ],
