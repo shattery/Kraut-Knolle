@@ -17,15 +17,15 @@ function Menu() {
       { name: "Buddha-Bowl", description: "Mit Quinoa, Avocado & Gemüse", price: "12,90€", image: "./img/Buddha-Bowl.png" },
       { name: "Veganer Burger", description: "Mit Linsenscheibe & BBQ-Sauce", price: "10,50€", image: "./img/Veganer Burger.jpg" },
       { name: "Pasta Arrabiata", description: "Mit scharfer Tomatensauce", price: "9,80€", image: "./img/Pasta Arrabiata.png" },
-      { name: "Ratatouille", description: "Geschmortes Gemüse mit Kräutern", price: "11,30€", image: "./img/ratatouille.jpg" },
-      { name: "Gemüse-Curry", description: "Mit Kokosmilch & Reis", price: "10,90€", image: "./img/curry.jpg" },
+      { name: "Ratatouille", description: "Geschmortes Gemüse mit Kräutern", price: "11,30€", image: "./img/Ratatouille.png" },
+      { name: "Gemüse-Curry", description: "Mit Kokosmilch & Reis", price: "10,90€", image: "./img/Gemüse-Curry.jpg" },
     ],
     nachtisch: [
-      { name: "Schoko-Mousse", description: "Mit Zartbitterschokolade", price: "6,50€", image: "./img/mousse.jpg" },
-      { name: "Panna Cotta", description: "Mit Beerensauce", price: "5,90€", image: "./img/pannacotta.jpg" },
-      { name: "Tiramisu", description: "Mit Espresso und Kakao", price: "7,20€", image: "./img/tiramisu.jpg" },
+      { name: "Schoko-Mousse", description: "Mit Zartbitterschokolade", price: "6,50€", image: "./img/Schoko-Mousse.jpg" },
+      { name: "Panna Cotta", description: "Mit Beerensauce", price: "5,90€", image: "./img/panna-cotta.png" },
+      { name: "Tiramisu", description: "Mit Espresso und Kakao", price: "7,20€", image: "./img/Tiramisu.jpg" },
       { name: "Apfelstrudel", description: "Mit Vanillesoße", price: "6,80€", image: "./img/apfelstrudel.jpg" },
-      { name: "Mandel-Brownie", description: "Saftig & schokoladig", price: "6,00€", image: "./img/brownie.jpg" },
+      { name: "Mandel-Brownie", description: "Saftig & schokoladig", price: "6,00€", image: "./img/Mandel-Brownie.png" },
     ],
   };
   

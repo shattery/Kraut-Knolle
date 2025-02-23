@@ -30,7 +30,7 @@ function Footer() {
       1. **Vertragsabschluss**: Auf dieser Website werden keine Transaktionen durchgeführt. Es handelt sich um eine rein informative Seite ohne Kauf- oder Vertragsabschlüsse.<br><br>
       2. **Leistungsbeschreibung**: Diese Website dient ausschließlich zu Demonstrationszwecken und bietet Informationen zu fiktiven Themen. Es gibt keine tatsächlichen Produkte oder Dienstleistungen.<br><br>
       3. **Haftung**: Wir übernehmen keine Haftung für die Richtigkeit, Vollständigkeit oder Aktualität der Informationen auf dieser Website. Jegliche Nutzung erfolgt auf eigene Verantwortung.<br><br>
-      4. **Gerichtsstand und anwendbares Recht**: Es gilt das Recht des Landes, in dem der Betreiber der Website seinen Sitz hat. Gerichtsstand ist [Ort].
+      4. **Gerichtsstand und anwendbares Recht**: Es gilt das Recht des Landes, in dem der Betreiber der Website seinen Sitz hat. Gerichtsstand ist Deutschland.
     `
   };
   
